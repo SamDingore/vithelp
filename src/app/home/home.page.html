@@ -1,20 +1,30 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Admin
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<div class="form-center">
+  <ion-img src="/assets/images/VITLogo.png"></ion-img>
+  <p class="col-p-101">Wellcome!</p>
+  <p class="col-p-102">Admin</p>
+  <div class="col-div-i-101">
+  <ion-item lines="none">
+    <ion-input class="col-i-101" name="mobileNumber" type="tel" placeholder="Mobile Number">
+      <ion-icon  class="div-col-icon-101" name="phone-portrait-outline"></ion-icon>
+    </ion-input>
+  </ion-item>
   </div>
+  <div class="col-div-i-102">
+
+  <ion-item lines="none">
+    
+  <ion-input class="col-i-102" name="password" type="password" placeholder="Enter Password">
+    <ion-icon name="lock-closed-outline" class="div-col-icon-102"></ion-icon>
+   
+  </ion-input>
+  <a><ion-icon name="eye-off-outline" class="div-col-icon-103"></ion-icon></a>
+  </ion-item>
+  </div>
+  <a href="#">Forgot Password?</a>
+  <ion-button href="#" expand="block">Block Button</ion-button>
+<p class="col-p-103">Or</p>
+<ion-button href="#" color="light" expand="block">Block Button</ion-button>
+</div>
 </ion-content>
