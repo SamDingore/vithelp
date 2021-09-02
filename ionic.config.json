@@ -1,0 +1,7 @@
+{
+  "name": "vithelp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
