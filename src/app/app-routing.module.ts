@@ -15,6 +15,18 @@ const routes: Routes = [
     path: 'dashboard',
     loadChildren: () => import('./dashboard/dashboard.module').then( m => m.DashboardPageModule)
   },
+  {
+    path: 'forgot-password',
+    loadChildren: () => import('./forgot-password/forgot-password.module').then( m => m.ForgotPasswordPageModule)
+  },
+  {
+    path: 'otp-sign-in',
+    loadChildren: () => import('./otp-sign-in/otp-sign-in.module').then( m => m.OtpSignInPageModule)
+  },
+  {
+    path: 'verify-otp',
+    loadChildren: () => import('./verify-otp/verify-otp.module').then( m => m.VerifyOtpPageModule)
+  },
 ];
 
 @NgModule({

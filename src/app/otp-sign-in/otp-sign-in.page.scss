@@ -1,0 +1,235 @@
+.form-center{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    }
+    .form-center ion-img{
+    
+      height: 155px;
+      width: 400px;
+      margin-left: 20%;
+      margin-right: 20%;
+      width: 60%;
+    }
+    
+    .form-center{
+      box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+    .col-p-101{
+      color: rgb(77, 77, 77);
+    }
+    .col-p-102{
+      color: rgb(0, 0, 0);
+    }
+    .col-p-103{
+      color: rgb(77, 77, 77);
+    }
+    .col-div-i-101, .col-div-i-102{
+      margin-right: 20%;
+      margin-left: 20%;
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+    .col-i-101{
+      border: 1px solid rgb(77, 77, 77) ;
+      border-radius: 5px;
+    
+    }
+    .col-i-102{
+      border: 1px solid rgb(77, 77, 77) ;
+      border-right: 0;
+      border-radius: 5px;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+    .div-col-icon-101, .div-col-icon-102{
+      margin-right: 5px;
+    }
+    
+    .div-col-icon-103{
+      position: fixed;
+      left: 58.5%;
+     margin-left: -30px;
+     z-index: 1;
+    }
+    .col-i-103{
+    
+    }
+    
+    
+    .passwordIcon{
+      font-size:2rem !important;
+      position: relative !important;
+    border-radius: 5px;
+    border-right: 1px solid rgb(77, 77, 77);
+    border-top: 1px solid rgb(77, 77, 77);
+    border-bottom: 1px solid rgb(77, 77, 77);
+    height: 38.5px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+      top: 0px !important;
+      margin: 0 auto !important;
+      margin-left: -30px;
+     
+    }
+    
+    
+    .forgot-password{
+      margin-left: 37%;
+      float: left;
+    }
+    
+    
+    .button1{
+     
+      margin-left: 23%;
+      margin-right: 23%;
+      width: 54%;
+      --width: 20px;
+      --height: 60px;
+      --background: #0f2060;
+      --vertical-align: middle;
+      --padding-start: 20%;
+      --padding-end: 20%;
+      margin-top: 3%;
+    }
+    
+    .button2{
+      margin-bottom: 10%;
+      margin-left: 23%;
+      margin-right: 23%;
+      width: 54%;
+      --width: 20px;
+      --height: 60px;
+    
+      --vertical-align: middle;
+      --padding-start: 15%;
+      --padding-end: 15%;
+      border: 1px solid #0f2060;
+      border-radius: 5px;
+    }
+    
+    
+    
+    
+    
+    @media  screen and (max-width: 600px) {
+    
+      .form-center{
+    text-align: center;
+    margin-top: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+    }
+    .form-center ion-img{
+    
+      height: 155px;
+      width: 400px;
+      margin-left: 15%;
+      margin-right: 15%;
+      width: 70%;
+    }
+    
+    .form-center{
+     box-shadow: none !important;
+    }
+    .col-p-101{
+      color: rgb(77, 77, 77);
+    }
+    .col-p-102{
+      color: rgb(0, 0, 0);
+    }
+    .col-p-103{
+      color: rgb(77, 77, 77);
+    }
+    .col-div-i-101, .col-div-i-102{
+      margin-right: 0;
+      margin-left: 0;
+      margin-top: 1.5%;
+      margin-bottom: 1.5%;
+    }
+    .col-i-101{
+      border: 1px solid rgb(77, 77, 77) ;
+      border-radius: 5px;
+    
+    }
+    .col-i-102{
+      border: 1px solid rgb(77, 77, 77) ;
+      border-right: 0;
+      border-radius: 5px;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+      
+    }
+    .div-col-icon-101, .div-col-icon-102{
+      margin-right: 5px;
+    }
+    
+    .div-col-icon-103{
+      position: fixed;
+      left: 58.5%;
+     margin-left: -30px;
+     z-index: 1;
+    }
+    .col-i-103{
+    
+    }
+    
+    
+    .passwordIcon{
+      font-size:2rem !important;
+      position: relative !important;
+    border-radius: 5px;
+    border-right: 1px solid rgb(77, 77, 77);
+    border-top: 1px solid rgb(77, 77, 77);
+    border-bottom: 1px solid rgb(77, 77, 77);
+    height: 37.5px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+      top: 0px !important;
+      margin: 0 auto !important;
+      margin-left: -30px;
+     
+    }
+    
+    
+    .forgot-password{
+      margin-right: 3.5%;
+    float: right;
+      
+    }
+    
+    
+    .button1{
+     
+      margin-left: 3.2%;
+      margin-right: 3.2%;
+      width: 93%;
+      --width: 20px;
+      --height: 60px;
+      --background: #0f2060;
+      --vertical-align: middle;
+    
+      margin-top: 3%;
+    }
+    
+    .button2{
+      margin-bottom: 5%;
+      margin-left: 3.2%;
+      margin-right: 3.2%;
+      width: 93%;
+      --width: 20px;
+      --height: 60px;
+    
+      --vertical-align: middle;
+    
+      border: 1px solid #0f2060;
+      border-radius: 5px;
+    }
+    
+    
+    
+    }
