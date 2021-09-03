@@ -1,6 +1,8 @@
 .form-center{
 text-align: center;
-
+margin-top: 5.5%;
+margin-left: 30%;
+margin-right: 30%;
 }
 .form-center ion-img{
 
@@ -28,16 +30,22 @@ text-align: center;
   margin-left: 40%;
   
 }
-.col-i-101, .col-i-102{
+.col-i-101{
   border: 1px solid rgb(77, 77, 77) ;
   border-radius: 5px;
+
+}
+.col-i-102{
+  border: 1px solid rgb(77, 77, 77) ;
+  border-right: 0;
+  border-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
 }
 .div-col-icon-101, .div-col-icon-102{
   margin-right: 5px;
 }
-.div-col-icon-102{
-  
-}
+
 .div-col-icon-103{
   position: fixed;
   left: 58.5%;
@@ -48,3 +56,50 @@ text-align: center;
 
 }
 
+
+.passwordIcon{
+  font-size:2rem !important;
+  position: relative !important;
+border-radius: 5px;
+border-right: 1px solid rgb(77, 77, 77);
+border-top: 1px solid rgb(77, 77, 77);
+border-bottom: 1px solid rgb(77, 77, 77);
+height: 37.5px;
+border-bottom-left-radius: 0;
+border-top-left-radius: 0;
+  top: 0px !important;
+  margin: 0 auto !important;
+  margin-left: -30px;
+}
+
+
+.forgot-password{
+  margin-left: 8%;
+}
+
+
+.button1{
+ 
+  margin-left: 35%;
+  margin-right: 35%;
+  --width: 20px;
+  --height: 60px;
+  --background: #0f2060;
+  --vertical-align: middle;
+  --padding-start: 88px;
+  --padding-end: 88px;
+}
+
+.button2{
+ 
+  margin-left: 35%;
+  margin-right: 35%;
+  --width: 20px;
+  --height: 60px;
+
+  --vertical-align: middle;
+  --padding-start: 48px;
+  --padding-end: 48px;
+  border: 1px solid #0f2060;
+  border-radius: 5px;
+}
