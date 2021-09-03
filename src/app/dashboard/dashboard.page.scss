@@ -1,20 +1,23 @@
 
 .parent-div-101{
+   
+  
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+.logo-title-left, .col-title-101, .col-title-102{
     float: left;
 }
-
 .logo-title-left{
     width: 180px;
     height: 40px;
-    float: left;
+    margin-right: 25%;
 }
 
 .col-title-101 ion-title{
-    width: 20%;
-    margin-left: 40%;
-    margin-right: 40%;
     --color: rgb(0, 0, 0);
-    margin-top: 15px;
+  
     
 }
 
@@ -26,10 +29,12 @@
 }
 
 .col-title-102 {
-    float: left;
+
+    margin-left: 0;
 }
 
 .col-title-101 {
-    float: left;
-    margin-left: 50%;
+        margin-right: 40%;
+        
+
 }
