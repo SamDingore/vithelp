@@ -1,22 +1,26 @@
+ion-content{
 
+    --ion-background-color:#D4ECDD;
+}
 .parent-div-101{
-   
-  
+
+
    width: 100%;
    padding: 0;
    margin: 0;
-   border: 3px
-    solid black;
+   background: #ffffff;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+
    height: 9%;
 }
 
 .parent-div-102{
-   
+
     clear: both;
     width: 100%;
     padding: 0;
     margin: 0;
-    border: 3px solid black;
     height: 20%;
     margin-top: 2%;
  }
@@ -32,15 +36,15 @@
 
 .col-title-101 ion-title{
     --color: rgb(0, 0, 0);
-  
-    
+
+
 }
 
 .col-title-102 ion-title{
     --color: rgb(0, 0, 0);
-   
-    
-  
+
+
+
 }
 
 .col-title-102 {
@@ -50,7 +54,7 @@
 
 .col-title-101 {
         margin-right: 40%;
-        
+
 
 }
 
@@ -61,6 +65,48 @@
     display: inline;
     height: 100%;
     width: 25%;
-    
+background: #F0E5CF;
+    border-radius: 10px;
     border:2px solid black;
+}
+
+
+.pending-request-div{
+    background: #FFBCBC;
+    clear: both;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 3px solid black;
+    height: 60%;
+    margin-top: 2%;
+    border-radius: 10px;
+ }
+
+ .col-title-center h2{
+    text-align: center;
+    margin-bottom: 5%
+ }
+
+
+ .index-row-div{
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   background: #81bad4;
+   height: 18%;
+  }
+
+.index-row-div p{
+    float: left;
+    margin-top: 1%;
+    margin-right: 10%;
+    font-size: 30px;
+    margin-left: 3%
+}
+
+.index-row-div ion-button{
+    float: left;
+    margin-top: 1%;
+    margin-right: 2%;
 }

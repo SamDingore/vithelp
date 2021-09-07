@@ -26,7 +26,11 @@ const routes: Routes = [
   {
     path: 'verify-otp',
     loadChildren: () => import('./verify-otp/verify-otp.module').then( m => m.VerifyOtpPageModule)
+  },  {
+    path: 'enterprise',
+    loadChildren: () => import('./enterprise/enterprise.module').then( m => m.EnterprisePageModule)
   },
+
 ];
 
 @NgModule({
