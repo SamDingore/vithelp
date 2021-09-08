@@ -30,6 +30,27 @@ const routes: Routes = [
     path: 'enterprise',
     loadChildren: () => import('./enterprise/enterprise.module').then( m => m.EnterprisePageModule)
   },
+  {
+    path: 'enterprise-signup',
+    loadChildren: () => import('./enterprise-signup/enterprise-signup.module').then( m => m.EnterpriseSignupPageModule)
+  },
+  {
+    path: 'enterprise-login',
+    loadChildren: () => import('./enterprise-login/enterprise-login.module').then( m => m.EnterpriseLoginPageModule)
+  },
+  {
+    path: 'doctor-dashboard',
+    loadChildren: () => import('./doctor-dashboard/doctor-dashboard.module').then( m => m.DoctorDashboardPageModule)
+  },
+  {
+    path: 'government-dashboard',
+    loadChildren: () => import('./government-dashboard/government-dashboard.module').then( m => m.GovernmentDashboardPageModule)
+  },
+  {
+    path: 'police-dashboard',
+    loadChildren: () => import('./police-dashboard/police-dashboard.module').then( m => m.PoliceDashboardPageModule)
+  },
+
 
 ];
 

@@ -1,25 +1,17 @@
-.button1:hover + .login-type, .login-type:hover{
-visibility: visible;
-transition-delay: 0s;
-}
-.login-type{
-  display: inline-flex;
-  visibility: hidden;
-  transition: all 0s ease 0.5s;
-}
+
 
 
 
 @media  screen and (max-width: 600px) {
 
-  .form-center{
+  .enterprise-signup{
 text-align: center;
 margin-top: 3%;
 margin-left: 2%;
 margin-right: 2%;
 
 }
-.form-center ion-img{
+.enterprise-signup ion-img{
 
   height: 155px;
   width: 400px;
@@ -28,7 +20,7 @@ margin-right: 2%;
   width: 70%;
 }
 
-.form-center{
+.enterprise-signup{
  box-shadow: none !important;
 }
 .col-p-101{
@@ -40,7 +32,7 @@ margin-right: 2%;
 .col-p-103{
   color: rgb(77, 77, 77);
 }
-.col-div-i-101, .col-div-i-102{
+.col-div-i-100, .col-div-i-101, .col-div-i-102{
   margin-right: 0;
   margin-left: 0;
   margin-top: 1.5%;
@@ -52,6 +44,14 @@ margin-right: 2%;
 
 }
 .col-i-102{
+  border: 1px solid rgb(77, 77, 77) ;
+  border-right: 0;
+  border-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+
+}
+.col-i-100{
   border: 1px solid rgb(77, 77, 77) ;
   border-right: 0;
   border-radius: 5px;
@@ -130,14 +130,14 @@ float: right;
 }
 
 @media  screen and (min-width: 600px) {
-  .form-center{
+  .enterprise-signup{
     text-align: center;
     margin-top: 20%;
     margin-left: 20%;
     margin-right: 20%;
 
     }
-    .form-center ion-img{
+    .enterprise-signup ion-img{
 
       height: 155px;
       width: 400px;
@@ -146,7 +146,7 @@ float: right;
       width: 60%;
     }
 
-    .form-center{
+    .enterprise-signup{
       box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     }
     .col-p-101{
@@ -158,7 +158,7 @@ float: right;
     .col-p-103{
       color: rgb(77, 77, 77);
     }
-    .col-div-i-101, .col-div-i-102{
+    .col-div-i-100, .col-div-i-101, .col-div-i-102{
       margin-right: 20%;
       margin-left: 20%;
       margin-top: 3%;
@@ -170,6 +170,13 @@ float: right;
 
     }
     .col-i-102{
+      border: 1px solid rgb(77, 77, 77) ;
+      border-right: 0;
+      border-radius: 5px;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+    .col-i-100{
       border: 1px solid rgb(77, 77, 77) ;
       border-right: 0;
       border-radius: 5px;
@@ -246,14 +253,14 @@ float: right;
 }
 
 @media  screen and (min-width: 840px) {
-  .form-center{
+  .enterprise-signup{
     text-align: center;
     margin-top: 10%;
     margin-left: 20%;
     margin-right: 20%;
 
     }
-    .form-center ion-img{
+    .enterprise-signup ion-img{
 
       height: 155px;
       width: 400px;
@@ -262,7 +269,7 @@ float: right;
       width: 60%;
     }
 
-    .form-center{
+    .enterprise-signup{
       box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     }
     .col-p-101{
@@ -274,7 +281,7 @@ float: right;
     .col-p-103{
       color: rgb(77, 77, 77);
     }
-    .col-div-i-101, .col-div-i-102{
+    .col-div-i-100, .col-div-i-101, .col-div-i-102{
       margin-right: 20%;
       margin-left: 20%;
       margin-top: 3%;
@@ -286,6 +293,13 @@ float: right;
 
     }
     .col-i-102{
+      border: 1px solid rgb(77, 77, 77) ;
+      border-right: 0;
+      border-radius: 5px;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+    .col-i-100{
       border: 1px solid rgb(77, 77, 77) ;
       border-right: 0;
       border-radius: 5px;
@@ -363,14 +377,14 @@ float: right;
 
 
 @media  screen and (min-width: 840px) and (min-height: 1024px){
-  .form-center{
+  .enterprise-signup{
     text-align: center;
     margin-top: 30%;
     margin-left: 20%;
     margin-right: 20%;
 
     }
-    .form-center ion-img{
+    .enterprise-signup ion-img{
 
       height: 155px;
       width: 400px;
@@ -379,7 +393,7 @@ float: right;
       width: 60%;
     }
 
-    .form-center{
+    .enterprise-signup{
       box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     }
     .col-p-101{
@@ -391,7 +405,7 @@ float: right;
     .col-p-103{
       color: rgb(77, 77, 77);
     }
-    .col-div-i-101, .col-div-i-102{
+    .col-div-i-101, .col-div-i-101, .col-div-i-102{
       margin-right: 20%;
       margin-left: 20%;
       margin-top: 3%;
@@ -403,6 +417,13 @@ float: right;
 
     }
     .col-i-102{
+      border: 1px solid rgb(77, 77, 77) ;
+      border-right: 0;
+      border-radius: 5px;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+    .col-i-100{
       border: 1px solid rgb(77, 77, 77) ;
       border-right: 0;
       border-radius: 5px;
@@ -479,14 +500,14 @@ float: right;
 }
 
 @media  screen and (min-width: 1280px) {
-  .form-center{
+  .enterprise-signup{
     text-align: center;
     margin-top: 3%;
     margin-left: 30%;
     margin-right: 30%;
 
     }
-    .form-center ion-img{
+    .enterprise-signup ion-img{
 
       height: 155px;
       width: 400px;
@@ -495,7 +516,7 @@ float: right;
       width: 60%;
     }
 
-    .form-center{
+    .enterprise-signup{
       box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     }
     .col-p-101{
@@ -507,7 +528,7 @@ float: right;
     .col-p-103{
       color: rgb(77, 77, 77);
     }
-    .col-div-i-101, .col-div-i-102{
+    .col-div-i-100, .col-div-i-101, .col-div-i-102{
       margin-right: 20%;
       margin-left: 20%;
       margin-top: 3%;
@@ -519,6 +540,13 @@ float: right;
 
     }
     .col-i-102{
+      border: 1px solid rgb(77, 77, 77) ;
+      border-right: 0;
+      border-radius: 5px;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+    .col-i-100{
       border: 1px solid rgb(77, 77, 77) ;
       border-right: 0;
       border-radius: 5px;
