@@ -2,32 +2,14 @@
 <ion-content [fullscreen]="true">
 <div class="form-center">
   <ion-img src="/assets/images/VITLogo.png"></ion-img>
-  <p class="col-p-101">Wellcome!</p>
-  <p class="col-p-102">Admin</p>
-  <div class="col-div-i-101">
-  <ion-item lines="none">
-    <ion-input class="col-i-101" name="mobileNumber" type="tel" placeholder="Mobile Number">
-      <ion-icon  class="div-col-icon-101" name="phone-portrait-outline"></ion-icon>
-    </ion-input>
-  </ion-item>
-  </div>
-  <div class="col-div-i-102">
+  <p class="col-p-101">Wellcome to VIT-help!</p>
+  <p class="col-p-102">Please Sign in to reach VIT-Help Dashboard</p>
 
+  <ion-button class="button1" href="/enterprise-login" size="default">SIGN IN</ion-button>
 
-  <ion-item lines="none">
-
-    <ion-input class="col-i-102" name="password" placeholder="Password" [type]="passwordType" clearOnEdit="false">
-      <ion-icon name="lock-closed-outline" class="div-col-icon-102"></ion-icon>
-    </ion-input>
-    <ion-icon  item-end [name]="passwordIcon" class="passwordIcon" (click)='hideShowPassword()'></ion-icon>
-</ion-item>
-  </div>
-  <a href="/forgot-password" class="forgot-password">Forgot Password?</a>
-  <div >
-  <ion-button class="button1" href="/dashboard" size="default">SIGN IN</ion-button>
 <p class="col-p-103">Or</p>
-<ion-button class="button2" href="/otp-sign-in" color="light" >LOGIN USING OTP</ion-button>
-</div>
-</div>
+<ion-button class="button2" href="/enterprise-signup" color="light" >SIGN UP</ion-button>
 
+
+</div>
 </ion-content>

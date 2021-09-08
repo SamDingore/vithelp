@@ -110,3 +110,18 @@ background: #F0E5CF;
     margin-top: 1%;
     margin-right: 2%;
 }
+
+
+.logout-button{
+  float: left;
+  margin-left: 70%;
+  display:none;
+  padding: 8px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+}
+.col-title-102 ion-title:hover + .logout-button, .logout-button:hover{
+display: inline-block;
+float: left;
+}

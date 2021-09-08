@@ -1,0 +1,40 @@
+<ion-content>
+<form class="enterprise-signup" action="/enterprise-login" method="post">
+  <ion-img src="/assets/images/VITLogo.png"></ion-img>
+  <p class="col-p-101">Wellcome!</p>
+  <p class="col-p-102">Admin</p>
+
+
+  <div class="col-div-i-100">
+  <ion-item lines="none">
+    <ion-input class="col-i-100" name="name" placeholder="Name" [type]="passwordType" clearOnEdit="false">
+    </ion-input>
+    <ion-icon  item-end [name]="passwordIcon" class="passwordIcon" (click)='hideShowPassword()'></ion-icon>
+</ion-item>
+  </div>
+
+  <div class="col-div-i-101">
+  <ion-item lines="none">
+    <ion-input class="col-i-101" name="mobileNumber" type="tel" placeholder="Mobile Number">
+      <ion-icon  class="div-col-icon-101" name="phone-portrait-outline"></ion-icon>
+    </ion-input>
+  </ion-item>
+  </div>
+  <div class="col-div-i-102">
+
+
+  <ion-item lines="none">
+
+    <ion-input class="col-i-102" name="password" placeholder="Password" [type]="passwordType" clearOnEdit="false">
+      <ion-icon name="lock-closed-outline" class="div-col-icon-102"></ion-icon>
+    </ion-input>
+    <ion-icon  item-end [name]="passwordIcon" class="passwordIcon" (click)='hideShowPassword()'></ion-icon>
+</ion-item>
+  </div>
+
+  <div >
+  <ion-button class="button1" href="/dashboard" size="default">SIGN IN</ion-button>
+</div>
+</form>
+
+</ion-content>
