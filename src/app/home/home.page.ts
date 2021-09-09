@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { CrudService } from 'src/app/service/crud.service';
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(private crudService: CrudService,) {}
   passwordType: string = 'password';
   passwordIcon: string = 'eye-off';
  

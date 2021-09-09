@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { CrudService } from 'src/app/service/crud.service';
 @Component({
   selector: 'app-enterprise-signup',
   templateUrl: './enterprise-signup.page.html',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EnterpriseSignupPage implements OnInit {
 
-  constructor() { }
+  constructor(private crudService : CrudService,) { }
 
   ngOnInit() {
   }
