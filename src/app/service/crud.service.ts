@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {HttpClient, HttpHeaders} from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
@@ -19,4 +19,5 @@ export class CrudService {
     return this.http.post('http://covithelp.16mb.com/mobile.php',mobiPass).subscribe((res: Response)=>{
     });
   }
+
 }
